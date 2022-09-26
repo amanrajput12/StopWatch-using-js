@@ -1,0 +1,50 @@
+body {
+  background-color: #606060;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+#value{
+    display: flex;
+    flex-wrap: wrap;
+}
+.digit {
+  font-size: 120px;
+  color: rgba(180, 255, 127, 0.79);
+}
+.txt {
+  font-size: 50px;
+  color: cadetblue;
+  font-weight: 700;
+  margin-top: 50px;
+}
+#buttons {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  margin: 8px;
+  border-radius: 10px;
+}
+#start {
+  background-color: #1abc9c;
+  border: none;
+  cursor: pointer;
+}
+#stop {
+  background: #3498db;
+  border: none;
+  cursor: pointer;
+}
+#reset {
+  background-color: #e74c3c;
+  border: none;
+  cursor: pointer;
+}
